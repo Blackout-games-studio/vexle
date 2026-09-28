@@ -1,0 +1,113 @@
+# ==========================================
+# Root / General System, OS & Editor Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+*~
+
+# VS Code (if team members use it alongside JetBrains)
+.vscode/
+
+# Root level environment files
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# JetBrains IDEs (IntelliJ IDEA, WebStorm)
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Keep run configurations if shared across team
+# !.idea/runConfigurations/
+
+# ==========================================
+# Frontend (React + TypeScript / Node.js)
+# ==========================================
+# Dependencies
+frontend/node_modules/
+frontend/jspm_packages/
+frontend/.pnp
+frontend/.pnp.js
+
+# Build Outputs
+frontend/dist/
+frontend/build/
+frontend/out/
+
+# Environment Files & Secrets
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# Testing, Coverage & E2E Artifacts
+frontend/coverage/
+frontend/.nyc_output/
+frontend/test-results/
+frontend/cypress/videos/
+frontend/cypress/screenshots/
+
+# Tooling & Framework Caches
+frontend/.eslintcache
+frontend/.stylelintcache
+frontend/.turbo/
+frontend/.next/
+frontend/.vite/
+
+# ==========================================
+# Backend (Java Spring Boot + Maven)
+# ==========================================
+# Maven Output
+backend/target/
+backend/bin/
+
+# Eclipse / Other IDE metadata
+backend/.project
+backend/.classpath
+backend/.settings/
+
+# Logs
+backend/*.log
+backend/logs/
+
+# Maven Wrapper temporary files (keeps maven-wrapper.jar tracked if present)
+backend/.mvn/timing.properties
+
+# Spring Boot & Database local artifacts
+backend/*.db
+backend/*.sqlite
+
+# Local application profiles (prevents committing personal DB secrets)
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-local.yaml
+backend/src/main/resources/application-*.local.properties
+
+# ==========================================
+# Security, Certificates & Keys
+# ==========================================
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.keystore
