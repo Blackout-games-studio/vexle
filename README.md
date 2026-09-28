@@ -38,6 +38,7 @@ Simple web app where players test their knowledge of world flags by filling in t
 ```bash
 cd backend
 ./mvnw spring-boot:run
+```
 
 The Spring Boot server will start on `http://localhost:8080`.
 
@@ -46,6 +47,7 @@ The Spring Boot server will start on `http://localhost:8080`.
 cd frontend
 npm install
 npm run dev
+```
 
 
 Open the local URL displayed in your terminal (typically `http://localhost:5173`).
